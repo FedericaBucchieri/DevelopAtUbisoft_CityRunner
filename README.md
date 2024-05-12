@@ -178,3 +178,5 @@ In parallel, this manager takes care of updating specialized managers dedicated 
 Crucially, their implementation incorporates an object pooling mechanism. This system optimizes resource utilization and significantly enhances runtime performance by handling the instantiation and reclamation of game objects.
 Furthermore, the *Background Pool* takes charge of background elements, utilizing a pooling mechanism for background sprites. 
 
+# Final Notes
+This repository includes the code produced by Federica Bucchieri during the mentorship program. Please note that it does not contain all the necessary files to run the project, as certain components are proprietary to Ubisoft Milan and cannot be published. However, you can still experience the game by running the provided GameTest.exe.
