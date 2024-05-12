@@ -1,0 +1,67 @@
+#pragma once
+
+class CGameCostants
+{
+public:
+	static const float platform_distance;
+	static const float feet_safety_threshold;
+	static const int min_platform_width;
+	static const int max_platform_width;
+	static const int max_platform_height;
+	static const int max_platform_height_difference;
+	static const int max_upper_platform_number;
+	static const int max_upper_platform_width;
+	static const int min_upper_platform_width;
+	static const int max_space_between_upper_platforms;
+	static const int min_space_between_upper_platforms;
+	static const float upper_platform_height_gap;
+	static const int max_object_per_floor;
+	static const int min_object_per_floor;
+	static const int max_object_per_upper;
+	static const int max_enemies_per_platform;
+	static char* gameOverBackgroudMesh;
+	static char* mainMenuBackgroundMesh;
+	static char* pauseBackgroundMesh;
+	static char* characterMesh;
+	static char* coinMesh;
+	static char* jumpBoostMesh;
+	static char* speedBoostMesh;
+	static char* healthUpMesh;
+	static char* barrel1Mesh;
+	static char* barrel2Mesh;
+	static char* barrel3Mesh;
+	static char* floorTileLeftBorder;
+	static char* floorTileLeftCorner;
+	static char* floorTileCenterTop;
+	static char* floorTileCenterBottom;
+	static char* floorTileRightCorner;
+	static char* floorTileRightBorder;
+	static char* upperTileLeftV1;
+	static char* upperTileCenterV1;
+	static char* upperTileRightV1;
+	static char* upperTileLeftV2;
+	static char* upperTileCenterV2;
+	static char* upperTileRightV2;
+	static float deathLevel;
+	static float groundLevel;
+	static float tileSize;
+	static float backgroundLevel;
+	static const float poolSize;
+	static const float backgroundWidth;
+	static const float backgroundHeight;
+	static char* enemyWithBathMesh;
+	static int objectMeshColums;
+	static int boostMeshColums;
+	static char* gameplayGameMode;
+	static char* mainMenuGameMode;
+	static char* gameoverGameMode;
+	static char* goBackToMainMenuText;
+	static char* startText;
+	static char* HUDbackground;
+	static char* UIMoneySprite;
+	static char* UIInvulnerabilitySprite;
+	static char* UISpeedBoostSprite;
+	static char* UIJumpBoostSprite;
+	static char* UIHealthSprite;
+	static const float characterFeetHeight;
+};
